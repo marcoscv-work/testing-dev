@@ -345,6 +345,31 @@ a:hover {
   height: 72px;
   max-width: 72px; }
 
+.highlight-btn {
+  border: 3px solid #00c0f0;
+  border-radius: 50px;
+  color: #344C67;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 10px;
+  padding: 12px 50px;
+  transition: all .3s ease-in-out;
+  position: relative; }
+  .highlight-btn:hover, .highlight-btn:focus {
+    border-color: #1ea3ff;
+    color: #344C67; }
+    .highlight-btn:hover .highlight-btn-icon, .highlight-btn:focus .highlight-btn-icon {
+      right: 25px;
+      opacity: 1; }
+  @media (min-width: 992px) {
+    .highlight-btn {
+      margin-bottom: 0; } }
+
+.highlight-btn-no-border {
+	border-color: transparent;
+}
+
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
 	background-color: #009AEE;
 	border-color: #009AEE;
